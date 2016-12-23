@@ -1,1 +1,1 @@
-FROM soiff/gitlab-runner:latest
+FROM docker.io/soiff/gitlab-runner:latest
