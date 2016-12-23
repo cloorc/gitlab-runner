@@ -15,3 +15,17 @@
 1. Change directory to working directory: `cd docker`;
 1. Building docker image: `docker build soiff/gitlab-runner:latest -f Dockerfile.amd64 .`;
 1. Pushing image to `https://docker.io`;
+
+---
+
+# Usage
+
+1. Create the pods in kubenetes;
+1. Entering the pods: `k8s -s x.x.x.x exec -it <pods> bash`;
+1. Registering the runner: `gitlab-runner register`;
+
+---
+
+# Docs
+
+1. [https://docs.gitlab.com/runner/](https://docs.gitlab.com/runner/)
